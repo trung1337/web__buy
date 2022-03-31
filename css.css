@@ -1,0 +1,226 @@
+@import url ('https://fonts.googleapis.com/css2? family = Roboto: wght @ 400; 500 & display = swap');
+.b{
+  font-family: 'Roboto', sans-serif;
+  background-color:white;
+  padding: 0px 300px 300px 300px;
+}
+head{
+    font-family: 'Roboto', sans-serif;
+    background-color:white;
+
+  }
+@media only screen and (max-width: 1000px){
+    .search{
+        display: none;
+    }
+    .menu{
+        display: none;
+    }
+    .tbody{
+        background-color: red;
+    }
+   .tbody  .idol{
+        width: 100%;
+         height: 500px; 
+         text-align: center;
+         float: left;
+          line-height: 250px;
+        background-color: #FF3030;
+    }
+    .chan{
+        float: none;
+    }
+    .ChinhSach{
+        width: 100%;
+        float: none;
+        color: red;
+    }
+  }
+.idol{
+    width: 69%;
+    height: 500px; 
+    text-align: center;
+    float: left;
+     line-height: 250px;
+}
+.tab-content{
+    display: block;
+}
+.imgintro{
+    width: 100%;
+    height: 120px;
+    background:white;   
+}
+.imgintro input{
+    width:  30%;
+    height: 20%;
+}
+.listproduct{
+    width: 100%;
+    height: 46px;
+    background-color: blue;
+}
+.search{
+float: right;
+
+}
+.search .shopping-icon{
+    color: #fff;
+    line-height: 46px;
+    padding: 0  21px;
+}
+.search .user-icon{
+    color: #fff;
+    line-height: 46px;
+    padding: 0  21px;
+    text-decoration: none;
+    text-emphasis: none;
+}
+.search .search-icon{
+    color: #fff;
+    line-height: 46px;
+    padding: 0  21px;
+}
+#nav{
+    display: inline-block;
+}
+#nav li{
+    display: inline-block;
+}
+#nav li a{
+    color:white;
+    text-decoration: none;
+    text-emphasis: none;
+    line-height: 23px;
+    padding: 0 46px;
+    display: inline-block;
+}
+#nav li:hover{
+    background-color: #ccc;
+}
+.listproduct #form{
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+}
+.gioithieu{
+    width: 100%;
+    height: 450px;
+    background:white ;
+    text-align: center;
+}
+.gioithieu .mucluc{
+    width: 30%;
+    height: 300px;
+    text-align: center;
+}
+.mucluc ul{
+    border: 1px solid black ;
+}
+
+.gioithieu .hinhanhioithieu{
+    width: 30%;
+    height: 200px;
+    text-align: center;
+    margin: 50px 50px 50px 50px;
+}
+.menu{
+    border: solid 0.5px black;
+}
+.menu ul li {
+    
+    border: solid 1px black;
+}
+.menu ul li h2{
+    text-decoration: none;
+    text-emphasis: none;
+    border-bottom: solid 10px black;
+}
+.imgmin li{
+    list-style-type:none ;
+}
+.freeship li{
+    list-style-type:none ;
+}
+.gachduoi{
+    width: 20%;
+    height: 5px;
+    background:#FF3030;
+    text-align: center;
+    margin-left: 43%;
+}
+ul.spdieuhoa{
+    list-style:none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+ul.spdieuhoa li{
+    flex-basis: 25%;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+    margin-bottom: 100px;
+}
+ul.spdieuhoa li img{
+    max-width: 100%;
+    height: 150px;
+    display: block;
+}
+ul.spdieuhoa li .mua-ngay{
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    background-color: #446084;
+    color:#fff;
+    padding: 10px 0px;
+
+
+}
+ul.spdieuhoa li a{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+}
+
+.foter{
+    width: 100%;
+    height: 3px;
+    background-color:#ccc;
+}
+.linkGioiThieu{
+    width: 14%;
+    height: 300px;
+    float: left;
+}
+.ChinhSach{
+    width: 13%;
+    height: 300px;
+    float: left;
+}
+.InforStore{
+    width: 16%;
+    height: 300px;
+    float: left;
+}
+.Fanpage{
+    width: 24%;
+    height: 300px;
+    float: left;
+}
+.Map{
+    width: 26%;
+    height: 300px;
+    float: left;
+}
+.pay{
+    width: 15%;
+    height: 300px;
+    float: left;
+}
+.TimeWork{
+    width: 15%;
+    height: 300px;
+    float: left;
+}
